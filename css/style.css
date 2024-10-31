@@ -10,11 +10,16 @@
 /* Fuente utilizada */
 /* font-family: "Afacad Flux", sans-serif; */
 
-a {
-    text-decoration: none;
-}
+
 
 /* header */
+a {
+    text-decoration: none;
+
+}
+
+
+
 
 .divParteLogo {
     display: flex;
@@ -25,7 +30,7 @@ a {
 }
 
 .logoExplora {
-    margin-left: 1.5625rem;
+    margin-left: 3.125rem;
 
 }
 
@@ -34,7 +39,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1.25rem;
+    margin-right: 6.25rem;
 
 }
 
@@ -44,6 +49,9 @@ a {
     padding: 1.25rem;
 }
 
+/* 
+                """ACÁ SIRVE PARA CUANDO HAGA EL MENU EN VISTA MOBILE Y O TABLET"""
+
 .menuHamb {
     display: flex;
     flex-direction: column;
@@ -52,7 +60,7 @@ a {
     align-items: center;
     text-align: center;
 
-}
+} */
 
 
 
@@ -82,15 +90,16 @@ body {
     width: 100%;
     padding: 1.25rem;
     font-weight: 3.125rem;
+    color: plum;
+    text-decoration: none;
+    font-size: 1.25rem;
 }
 
-
-/* EN FOOTER */
+                                                /* EN FOOTER */
 
 
 
 footer {
-
     border: plum;
     border-style: ridge;
     border-width: .125rem;
@@ -100,8 +109,9 @@ footer {
 
 
 .estiloDivFooter {
-    background-color: #A5B68D;
+
     display: flex;
+    background-color: #A5B68D;
     justify-content: space-around;
     align-items: center;
     gap: .9375rem;
@@ -110,6 +120,20 @@ footer {
 
 
 }
+.estiloDivFooter a {
+    color: black;
+
+}
+
+.estiloDivFooter a:hover {
+    color: black;
+
+}
+
+.estiloDivFooter a:visited {
+    color: black;
+}
+
 
 .estiloDivFooter img {
     width: 1.875rem;
@@ -128,7 +152,7 @@ footer {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 1.25rem;
-    
+
 
 }
 
@@ -143,7 +167,7 @@ footer {
 }
 
 .sectionIndex1 {
-    max-width: 100%;
+    width: 100%;
     background-image: url(../assets/img/alimentacion-saludabl.PNG);
     background-repeat: no-repeat;
     background-size: cover;
@@ -185,7 +209,8 @@ footer {
     grid-row: 3 / 4;
     justify-self: center;
     padding-top: .3125rem;
-
+    font-size: 1.875rem;
+    color: plum;
 }
 
 
@@ -195,7 +220,8 @@ footer {
     grid-row: 3 / 4;
     justify-self: center;
     padding-top: .3125rem;
-
+    font-size: 1.875rem;
+    color: plum;
 }
 
 .anclaHobby {
@@ -203,7 +229,8 @@ footer {
     grid-row: 3 / 4;
     justify-self: center;
     padding-top: .3125rem;
-
+    font-size: 1.875rem;
+    color: plum;
 }
 
 .subtAlimentacion {
@@ -211,6 +238,7 @@ footer {
     grid-row: 3 / 4;
     justify-self: center;
     align-self: center;
+    font-size: 1.25rem;
 }
 
 .subtPalmetti {
@@ -218,6 +246,7 @@ footer {
     grid-row: 3 / 4;
     justify-self: center;
     align-self: center;
+    font-size: 1.25rem;
 }
 
 
@@ -227,9 +256,10 @@ footer {
     grid-row: 3 / 4;
     justify-self: center;
     align-self: center;
+    font-size: 1.25rem;
 }
 
-/*  !!!!!!!!!! MAIN DEL INDEX !!!!!!
+/*  !!!!! MAIN DEL INDEX TMB !!
 
 
 /* .falsoCarrousel {
@@ -325,11 +355,21 @@ footer {
 
 
 
-
-
 .titCrearUser {
     font-size: 1.25rem;
 }
+
+/*
+
+¡¡MEDIA QUERIES!!
+@media (max-width 744px) {
+
+
+
+} */
+
+
+
 
 
 /* En página NOVEDADES */
